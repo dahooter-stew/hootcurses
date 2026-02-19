@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/jannbajade/dev/c/hootcurses/build",
+  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -std=gnu11 -Wall -Wextra -Wpedantic -o CMakeFiles/hootcurses.dir/src/hootcurses.c.o -c /home/jannbajade/dev/c/hootcurses/src/hootcurses.c",
+  "file": "/home/jannbajade/dev/c/hootcurses/src/hootcurses.c",
+  "output": "CMakeFiles/hootcurses.dir/src/hootcurses.c.o"
+},
+{
+  "directory": "/home/jannbajade/dev/c/hootcurses/build",
+  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -std=gnu11 -Wall -Wextra -Wpedantic -o CMakeFiles/hootcurses.dir/src/main.c.o -c /home/jannbajade/dev/c/hootcurses/src/main.c",
+  "file": "/home/jannbajade/dev/c/hootcurses/src/main.c",
+  "output": "CMakeFiles/hootcurses.dir/src/main.c.o"
+},
+{
+  "directory": "/home/jannbajade/dev/c/hootcurses/build/libs/resizable_array",
+  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -std=gnu11 -o CMakeFiles/resizable_array.dir/src/resizable_array.c.o -c /home/jannbajade/dev/c/hootcurses/libs/resizable_array/src/resizable_array.c",
+  "file": "/home/jannbajade/dev/c/hootcurses/libs/resizable_array/src/resizable_array.c",
+  "output": "libs/resizable_array/CMakeFiles/resizable_array.dir/src/resizable_array.c.o"
+}
+]

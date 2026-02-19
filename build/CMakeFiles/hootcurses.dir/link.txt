@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/hootcurses.dir/link.d CMakeFiles/hootcurses.dir/src/hootcurses.c.o CMakeFiles/hootcurses.dir/src/main.c.o -o hootcurses  libs/resizable_array/libresizable_array.a

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jannbajade/dev/c/hootcurses/build/cmake_install.cmake",
+		"/home/jannbajade/dev/c/hootcurses/build/libs/resizable_array/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,6 @@
+/home/jannbajade/dev/c/hootcurses/build/CMakeFiles/hootcurses.dir
+/home/jannbajade/dev/c/hootcurses/build/CMakeFiles/edit_cache.dir
+/home/jannbajade/dev/c/hootcurses/build/CMakeFiles/rebuild_cache.dir
+/home/jannbajade/dev/c/hootcurses/build/libs/resizable_array/CMakeFiles/resizable_array.dir
+/home/jannbajade/dev/c/hootcurses/build/libs/resizable_array/CMakeFiles/edit_cache.dir
+/home/jannbajade/dev/c/hootcurses/build/libs/resizable_array/CMakeFiles/rebuild_cache.dir
