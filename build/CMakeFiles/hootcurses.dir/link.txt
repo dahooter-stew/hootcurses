@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/hootcurses.dir/link.d CMakeFiles/hootcurses.dir/src/hootcurses.c.o CMakeFiles/hootcurses.dir/src/main.c.o CMakeFiles/hootcurses.dir/src/queue.c.o CMakeFiles/hootcurses.dir/src/screen_surface.c.o -o hootcurses  libs/resizable_array/libresizable_array.a libs/linked_list/liblinked_list.a
