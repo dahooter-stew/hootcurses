@@ -152,7 +152,6 @@ void blit_surface(void)
   }
 }
 
-
 void diff_surface(void)
 {
   // static char TEMP_BUFFER[30];
@@ -196,7 +195,7 @@ void display_context(void)
   surface_size curr_size = get_surface_size(get_surface());
   int surface_area_half = curr_size.width * curr_size.height / 2;
 
-  if (difference > surface_area_half / 4)
+  if (difference > surface_area_half)
   {
     blit_surface();
     write(1, CURRENT_CONTEXT->ansi_string->data, CURRENT_CONTEXT->ansi_string->length);

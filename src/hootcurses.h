@@ -2,14 +2,29 @@
 #ifndef HOOTCURSES
 #define HOOTCURSES
 
-#include "types.h"
+#include "screen_surface.h"
+#include "resizable_array.h"
 
 #include <stdbool.h>
 
-/* ================================================
- * DRAWING
- * ================================================
- */
+typedef struct 
+{
+  screen_surface* surface;
+  screen_surface* previous_frame;
+  resizable_array_char* ansi_string;
+  char* title;
+} render_context;
+
+typedef enum
+{
+  INIT = 0,
+  WINDOW_RESIZE
+} EVENT_TYPE;
+
+typedef union
+{
+  int type;
+} event;
 
 screen_surface*   create_surface(surface_size size);
 render_context*   create_context(screen_surface* surface, char* title);
