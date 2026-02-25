@@ -2,14 +2,18 @@ CMakeFiles/hootcurses.dir/src/hootcurses.c.o: \
  /home/jannbajade/dev/c/hootcurses/src/hootcurses.c \
  /usr/include/stdc-predef.h \
  /home/jannbajade/dev/c/hootcurses/src/hootcurses.h \
+ /home/jannbajade/dev/c/hootcurses/src/types.h \
  /home/jannbajade/dev/c/hootcurses/libs/resizable_array/include/resizable_array.h \
- /usr/include/unistd.h /usr/include/features.h \
- /usr/include/features-time64.h /usr/include/bits/wordsize.h \
- /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
- /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-64.h /usr/include/bits/posix_opt.h \
- /usr/include/bits/environments.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /home/jannbajade/dev/c/hootcurses/src/screen_surface.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
+ /home/jannbajade/dev/c/hootcurses/src/queue.h /usr/include/unistd.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \

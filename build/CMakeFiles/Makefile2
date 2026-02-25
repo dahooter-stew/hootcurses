@@ -65,21 +65,44 @@ CMAKE_BINARY_DIR = /home/jannbajade/dev/c/hootcurses/build
 # The main recursive "all" target.
 all: CMakeFiles/hootcurses.dir/all
 all: libs/resizable_array/all
+all: libs/linked_list/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/hootcurses.dir/codegen
 codegen: libs/resizable_array/codegen
+codegen: libs/linked_list/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: libs/resizable_array/preinstall
+preinstall: libs/linked_list/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/hootcurses.dir/clean
 clean: libs/resizable_array/clean
+clean: libs/linked_list/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory libs/linked_list
+
+# Recursive "all" directory target.
+libs/linked_list/all: libs/linked_list/CMakeFiles/linked_list.dir/all
+.PHONY : libs/linked_list/all
+
+# Recursive "codegen" directory target.
+libs/linked_list/codegen: libs/linked_list/CMakeFiles/linked_list.dir/codegen
+.PHONY : libs/linked_list/codegen
+
+# Recursive "preinstall" directory target.
+libs/linked_list/preinstall:
+.PHONY : libs/linked_list/preinstall
+
+# Recursive "clean" directory target.
+libs/linked_list/clean: libs/linked_list/CMakeFiles/linked_list.dir/clean
+.PHONY : libs/linked_list/clean
 
 #=============================================================================
 # Directory level rules for directory libs/resizable_array
@@ -105,14 +128,15 @@ libs/resizable_array/clean: libs/resizable_array/CMakeFiles/resizable_array.dir/
 
 # All Build rule for target.
 CMakeFiles/hootcurses.dir/all: libs/resizable_array/CMakeFiles/resizable_array.dir/all
+CMakeFiles/hootcurses.dir/all: libs/linked_list/CMakeFiles/linked_list.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=1,2,3 "Built target hootcurses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target hootcurses"
 .PHONY : CMakeFiles/hootcurses.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hootcurses.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jannbajade/dev/c/hootcurses/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jannbajade/dev/c/hootcurses/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hootcurses.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jannbajade/dev/c/hootcurses/build/CMakeFiles 0
 .PHONY : CMakeFiles/hootcurses.dir/rule
@@ -124,7 +148,7 @@ hootcurses: CMakeFiles/hootcurses.dir/rule
 # codegen rule for target.
 CMakeFiles/hootcurses.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target hootcurses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target hootcurses"
 .PHONY : CMakeFiles/hootcurses.dir/codegen
 
 # clean rule for target.
@@ -139,7 +163,7 @@ CMakeFiles/hootcurses.dir/clean:
 libs/resizable_array/CMakeFiles/resizable_array.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs/resizable_array/CMakeFiles/resizable_array.dir/build.make libs/resizable_array/CMakeFiles/resizable_array.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/resizable_array/CMakeFiles/resizable_array.dir/build.make libs/resizable_array/CMakeFiles/resizable_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=4,5 "Built target resizable_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=8,9 "Built target resizable_array"
 .PHONY : libs/resizable_array/CMakeFiles/resizable_array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,13 +180,45 @@ resizable_array: libs/resizable_array/CMakeFiles/resizable_array.dir/rule
 # codegen rule for target.
 libs/resizable_array/CMakeFiles/resizable_array.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f libs/resizable_array/CMakeFiles/resizable_array.dir/build.make libs/resizable_array/CMakeFiles/resizable_array.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=4,5 "Finished codegen for target resizable_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=8,9 "Finished codegen for target resizable_array"
 .PHONY : libs/resizable_array/CMakeFiles/resizable_array.dir/codegen
 
 # clean rule for target.
 libs/resizable_array/CMakeFiles/resizable_array.dir/clean:
 	$(MAKE) $(MAKESILENT) -f libs/resizable_array/CMakeFiles/resizable_array.dir/build.make libs/resizable_array/CMakeFiles/resizable_array.dir/clean
 .PHONY : libs/resizable_array/CMakeFiles/resizable_array.dir/clean
+
+#=============================================================================
+# Target rules for target libs/linked_list/CMakeFiles/linked_list.dir
+
+# All Build rule for target.
+libs/linked_list/CMakeFiles/linked_list.dir/all:
+	$(MAKE) $(MAKESILENT) -f libs/linked_list/CMakeFiles/linked_list.dir/build.make libs/linked_list/CMakeFiles/linked_list.dir/depend
+	$(MAKE) $(MAKESILENT) -f libs/linked_list/CMakeFiles/linked_list.dir/build.make libs/linked_list/CMakeFiles/linked_list.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=6,7 "Built target linked_list"
+.PHONY : libs/linked_list/CMakeFiles/linked_list.dir/all
+
+# Build rule for subdir invocation for target.
+libs/linked_list/CMakeFiles/linked_list.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jannbajade/dev/c/hootcurses/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/linked_list/CMakeFiles/linked_list.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jannbajade/dev/c/hootcurses/build/CMakeFiles 0
+.PHONY : libs/linked_list/CMakeFiles/linked_list.dir/rule
+
+# Convenience name for target.
+linked_list: libs/linked_list/CMakeFiles/linked_list.dir/rule
+.PHONY : linked_list
+
+# codegen rule for target.
+libs/linked_list/CMakeFiles/linked_list.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f libs/linked_list/CMakeFiles/linked_list.dir/build.make libs/linked_list/CMakeFiles/linked_list.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jannbajade/dev/c/hootcurses/build/CMakeFiles --progress-num=6,7 "Finished codegen for target linked_list"
+.PHONY : libs/linked_list/CMakeFiles/linked_list.dir/codegen
+
+# clean rule for target.
+libs/linked_list/CMakeFiles/linked_list.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libs/linked_list/CMakeFiles/linked_list.dir/build.make libs/linked_list/CMakeFiles/linked_list.dir/clean
+.PHONY : libs/linked_list/CMakeFiles/linked_list.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

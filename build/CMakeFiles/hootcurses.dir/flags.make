@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include
+C_INCLUDES = -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -I/home/jannbajade/dev/c/hootcurses/libs/linked_list/include
 
 C_FLAGS = -std=gnu11 -Wall -Wextra -Wpedantic
 

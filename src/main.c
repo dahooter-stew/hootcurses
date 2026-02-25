@@ -2,15 +2,31 @@
 
 int main(void)
 {
-  init_hootcurses();
+  init_hootcurses("TEST");
+
+  char a = 'A';
+
+  bool heh = false;
 
   while (1)
   {
-    clear_surface();
-    // put_at(10, 10, (fragment){.r = 255, .b = 255, .g = 255, .chr = 'O'});
-    fill_surface((fragment){.r = 100, .g = 100, .b = 100, .chr = 'K'});
+    event e;
+    while (poll_events(&e))
+    {
+      a = 'B';
+      heh = true;
+    }
 
-    blit_surface();
+    clear_surface(get_surface());
+    fill_surface(get_surface(), (fragment){.r = 100, .g = 100, .b = 255, .chr = a});
+
+    if (heh)
+    {
+      fragment* f = surface_at(get_surface(), 20, 20);
+      if (f)
+        *f = (fragment){.r = 255, .g = 255, .b = 255, .chr = 'X'};
+    }
+
     display_context();
   }
 }

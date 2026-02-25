@@ -4,3 +4,6 @@
 /home/jannbajade/dev/c/hootcurses/build/libs/resizable_array/CMakeFiles/resizable_array.dir
 /home/jannbajade/dev/c/hootcurses/build/libs/resizable_array/CMakeFiles/edit_cache.dir
 /home/jannbajade/dev/c/hootcurses/build/libs/resizable_array/CMakeFiles/rebuild_cache.dir
+/home/jannbajade/dev/c/hootcurses/build/libs/linked_list/CMakeFiles/linked_list.dir
+/home/jannbajade/dev/c/hootcurses/build/libs/linked_list/CMakeFiles/edit_cache.dir
+/home/jannbajade/dev/c/hootcurses/build/libs/linked_list/CMakeFiles/rebuild_cache.dir

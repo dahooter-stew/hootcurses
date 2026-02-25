@@ -4,7 +4,10 @@ hootcurses: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/hootcurses.dir/src/hootcurses.c.o \
   CMakeFiles/hootcurses.dir/src/main.c.o \
+  CMakeFiles/hootcurses.dir/src/queue.c.o \
+  CMakeFiles/hootcurses.dir/src/screen_surface.c.o \
   libs/resizable_array/libresizable_array.a \
+  libs/linked_list/liblinked_list.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
@@ -37,7 +40,13 @@ CMakeFiles/hootcurses.dir/src/hootcurses.c.o:
 
 CMakeFiles/hootcurses.dir/src/main.c.o:
 
+CMakeFiles/hootcurses.dir/src/queue.c.o:
+
+CMakeFiles/hootcurses.dir/src/screen_surface.c.o:
+
 libs/resizable_array/libresizable_array.a:
+
+libs/linked_list/liblinked_list.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 

@@ -4,6 +4,9 @@
 CMakeFiles/hootcurses.dir/src/hootcurses.c.o: /home/jannbajade/dev/c/hootcurses/src/hootcurses.c \
   /home/jannbajade/dev/c/hootcurses/libs/resizable_array/include/resizable_array.h \
   /home/jannbajade/dev/c/hootcurses/src/hootcurses.h \
+  /home/jannbajade/dev/c/hootcurses/src/queue.h \
+  /home/jannbajade/dev/c/hootcurses/src/screen_surface.h \
+  /home/jannbajade/dev/c/hootcurses/src/types.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/ioctl.h \
@@ -82,12 +85,125 @@ CMakeFiles/hootcurses.dir/src/hootcurses.c.o: /home/jannbajade/dev/c/hootcurses/
   /usr/include/sys/types.h \
   /usr/include/unistd.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
 
 CMakeFiles/hootcurses.dir/src/main.c.o: /home/jannbajade/dev/c/hootcurses/src/main.c \
   /home/jannbajade/dev/c/hootcurses/libs/resizable_array/include/resizable_array.h \
   /home/jannbajade/dev/c/hootcurses/src/hootcurses.h \
-  /usr/include/stdc-predef.h
+  /home/jannbajade/dev/c/hootcurses/src/screen_surface.h \
+  /home/jannbajade/dev/c/hootcurses/src/types.h \
+  /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h
+
+CMakeFiles/hootcurses.dir/src/queue.c.o: /home/jannbajade/dev/c/hootcurses/src/queue.c \
+  /home/jannbajade/dev/c/hootcurses/libs/resizable_array/include/resizable_array.h \
+  /home/jannbajade/dev/c/hootcurses/src/queue.h \
+  /home/jannbajade/dev/c/hootcurses/src/screen_surface.h \
+  /home/jannbajade/dev/c/hootcurses/src/types.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
+
+CMakeFiles/hootcurses.dir/src/screen_surface.c.o: /home/jannbajade/dev/c/hootcurses/src/screen_surface.c \
+  /home/jannbajade/dev/c/hootcurses/src/screen_surface.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
 
 hootcurses: /usr/lib/Scrt1.o \
   /usr/lib/crti.o \
@@ -103,6 +219,9 @@ hootcurses: /usr/lib/Scrt1.o \
   /usr/lib/libc_nonshared.a \
   CMakeFiles/hootcurses.dir/src/hootcurses.c.o \
   CMakeFiles/hootcurses.dir/src/main.c.o \
+  CMakeFiles/hootcurses.dir/src/queue.c.o \
+  CMakeFiles/hootcurses.dir/src/screen_surface.c.o \
+  libs/linked_list/liblinked_list.a \
   libs/resizable_array/libresizable_array.a
 
 
@@ -111,8 +230,6 @@ libs/resizable_array/libresizable_array.a:
 /usr/lib/libc.so.6:
 
 /usr/lib/ld-linux-x86-64.so.2:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
 /usr/lib/libgcc_s.so.1:
 
@@ -124,7 +241,11 @@ libs/resizable_array/libresizable_array.a:
 
 /usr/lib/crti.o:
 
+/home/jannbajade/dev/c/hootcurses/src/queue.c:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h:
 
 /usr/include/unistd.h:
 
@@ -133,6 +254,8 @@ libs/resizable_array/libresizable_array.a:
 /usr/include/sys/ttydefaults.h:
 
 /usr/include/sys/ioctl.h:
+
+CMakeFiles/hootcurses.dir/src/screen_surface.c.o:
 
 /usr/include/sys/cdefs.h:
 
@@ -160,6 +283,12 @@ libs/resizable_array/libresizable_array.a:
 
 /usr/include/bits/waitflags.h:
 
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/typesizes.h:
+
 /usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/ioctls.h:
@@ -172,9 +301,9 @@ libs/resizable_array/libresizable_array.a:
 
 /usr/include/bits/endianness.h:
 
-/usr/include/asm-generic/ioctls.h:
-
 /usr/include/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
 
 /usr/include/bits/confname.h:
 
@@ -188,6 +317,10 @@ libs/resizable_array/libresizable_array.a:
 
 /usr/include/bits/ioctl-types.h:
 
+libs/linked_list/liblinked_list.a:
+
+/home/jannbajade/dev/c/hootcurses/src/screen_surface.c:
+
 /usr/include/bits/floatn.h:
 
 /usr/include/bits/byteswap.h:
@@ -196,9 +329,9 @@ libs/resizable_array/libresizable_array.a:
 
 /usr/include/bits/time64.h:
 
-/usr/include/stdc-predef.h:
+/usr/lib/Scrt1.o:
 
-/usr/include/bits/pthreadtypes-arch.h:
+/usr/include/asm/sockios.h:
 
 /home/jannbajade/dev/c/hootcurses/src/hootcurses.c:
 
@@ -214,19 +347,25 @@ libs/resizable_array/libresizable_array.a:
 
 /home/jannbajade/dev/c/hootcurses/src/hootcurses.h:
 
-/usr/include/bits/pthreadtypes.h:
-
 /usr/include/asm/bitsperlong.h:
 
-/usr/include/bits/posix_opt.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
 
-/usr/include/bits/timesize.h:
+/usr/include/bits/types/FILE.h:
 
-/usr/include/bits/endian.h:
+/home/jannbajade/dev/c/hootcurses/src/screen_surface.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/include/alloca.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+
+/home/jannbajade/dev/c/hootcurses/src/queue.h:
+
+/home/jannbajade/dev/c/hootcurses/src/types.h:
+
+/usr/include/bits/types/struct_FILE.h:
 
 CMakeFiles/hootcurses.dir/src/hootcurses.c.o:
 
@@ -242,9 +381,17 @@ CMakeFiles/hootcurses.dir/src/hootcurses.c.o:
 
 /usr/include/bits/types/locale_t.h:
 
-/usr/lib/Scrt1.o:
+/usr/include/bits/posix_opt.h:
 
-/usr/include/asm/sockios.h:
+/usr/include/bits/endian.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/bits/pthreadtypes.h:
 
 /usr/include/bits/select.h:
 
@@ -255,6 +402,12 @@ CMakeFiles/hootcurses.dir/src/hootcurses.c.o:
 /usr/include/bits/types/struct_timeval.h:
 
 /usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/stdlib-float.h:
+
+CMakeFiles/hootcurses.dir/src/queue.c.o:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -268,19 +421,9 @@ CMakeFiles/hootcurses.dir/src/hootcurses.c.o:
 
 /usr/include/bits/types.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/bits/types/__FILE.h:
-
 /usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/types/__locale_t.h:
-
-/usr/include/bits/unistd_ext.h:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -291,12 +434,6 @@ CMakeFiles/hootcurses.dir/src/hootcurses.c.o:
 /usr/include/endian.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/types/struct_FILE.h:
 
 CMakeFiles/hootcurses.dir/src/main.c.o:
 

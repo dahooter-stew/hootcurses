@@ -4,6 +4,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/hootcurses.dir/src/hootcurses.c.o.d"
   "CMakeFiles/hootcurses.dir/src/main.c.o"
   "CMakeFiles/hootcurses.dir/src/main.c.o.d"
+  "CMakeFiles/hootcurses.dir/src/queue.c.o"
+  "CMakeFiles/hootcurses.dir/src/queue.c.o.d"
+  "CMakeFiles/hootcurses.dir/src/screen_surface.c.o"
+  "CMakeFiles/hootcurses.dir/src/screen_surface.c.o.d"
   "hootcurses"
   "hootcurses.pdb"
 )

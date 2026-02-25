@@ -143,6 +143,19 @@ resizable_array/fast:
 	$(MAKE) $(MAKESILENT) -f libs/resizable_array/CMakeFiles/resizable_array.dir/build.make libs/resizable_array/CMakeFiles/resizable_array.dir/build
 .PHONY : resizable_array/fast
 
+#=============================================================================
+# Target rules for targets named linked_list
+
+# Build rule for target.
+linked_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linked_list
+.PHONY : linked_list
+
+# fast build rule for target.
+linked_list/fast:
+	$(MAKE) $(MAKESILENT) -f libs/linked_list/CMakeFiles/linked_list.dir/build.make libs/linked_list/CMakeFiles/linked_list.dir/build
+.PHONY : linked_list/fast
+
 src/hootcurses.o: src/hootcurses.c.o
 .PHONY : src/hootcurses.o
 
@@ -191,6 +204,54 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/queue.o: src/queue.c.o
+.PHONY : src/queue.o
+
+# target to build an object file
+src/queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/src/queue.c.o
+.PHONY : src/queue.c.o
+
+src/queue.i: src/queue.c.i
+.PHONY : src/queue.i
+
+# target to preprocess a source file
+src/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/src/queue.c.i
+.PHONY : src/queue.c.i
+
+src/queue.s: src/queue.c.s
+.PHONY : src/queue.s
+
+# target to generate assembly for a file
+src/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/src/queue.c.s
+.PHONY : src/queue.c.s
+
+src/screen_surface.o: src/screen_surface.c.o
+.PHONY : src/screen_surface.o
+
+# target to build an object file
+src/screen_surface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/src/screen_surface.c.o
+.PHONY : src/screen_surface.c.o
+
+src/screen_surface.i: src/screen_surface.c.i
+.PHONY : src/screen_surface.i
+
+# target to preprocess a source file
+src/screen_surface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/src/screen_surface.c.i
+.PHONY : src/screen_surface.c.i
+
+src/screen_surface.s: src/screen_surface.c.s
+.PHONY : src/screen_surface.s
+
+# target to generate assembly for a file
+src/screen_surface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hootcurses.dir/build.make CMakeFiles/hootcurses.dir/src/screen_surface.c.s
+.PHONY : src/screen_surface.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,6 +261,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hootcurses"
+	@echo "... linked_list"
 	@echo "... resizable_array"
 	@echo "... src/hootcurses.o"
 	@echo "... src/hootcurses.i"
@@ -207,6 +269,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/queue.o"
+	@echo "... src/queue.i"
+	@echo "... src/queue.s"
+	@echo "... src/screen_surface.o"
+	@echo "... src/screen_surface.i"
+	@echo "... src/screen_surface.s"
 .PHONY : help
 
 

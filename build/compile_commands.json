@@ -1,20 +1,38 @@
 [
 {
   "directory": "/home/jannbajade/dev/c/hootcurses/build",
-  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -std=gnu11 -Wall -Wextra -Wpedantic -o CMakeFiles/hootcurses.dir/src/hootcurses.c.o -c /home/jannbajade/dev/c/hootcurses/src/hootcurses.c",
+  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -I/home/jannbajade/dev/c/hootcurses/libs/linked_list/include -std=gnu11 -Wall -Wextra -Wpedantic -o CMakeFiles/hootcurses.dir/src/hootcurses.c.o -c /home/jannbajade/dev/c/hootcurses/src/hootcurses.c",
   "file": "/home/jannbajade/dev/c/hootcurses/src/hootcurses.c",
   "output": "CMakeFiles/hootcurses.dir/src/hootcurses.c.o"
 },
 {
   "directory": "/home/jannbajade/dev/c/hootcurses/build",
-  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -std=gnu11 -Wall -Wextra -Wpedantic -o CMakeFiles/hootcurses.dir/src/main.c.o -c /home/jannbajade/dev/c/hootcurses/src/main.c",
+  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -I/home/jannbajade/dev/c/hootcurses/libs/linked_list/include -std=gnu11 -Wall -Wextra -Wpedantic -o CMakeFiles/hootcurses.dir/src/main.c.o -c /home/jannbajade/dev/c/hootcurses/src/main.c",
   "file": "/home/jannbajade/dev/c/hootcurses/src/main.c",
   "output": "CMakeFiles/hootcurses.dir/src/main.c.o"
+},
+{
+  "directory": "/home/jannbajade/dev/c/hootcurses/build",
+  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -I/home/jannbajade/dev/c/hootcurses/libs/linked_list/include -std=gnu11 -Wall -Wextra -Wpedantic -o CMakeFiles/hootcurses.dir/src/queue.c.o -c /home/jannbajade/dev/c/hootcurses/src/queue.c",
+  "file": "/home/jannbajade/dev/c/hootcurses/src/queue.c",
+  "output": "CMakeFiles/hootcurses.dir/src/queue.c.o"
+},
+{
+  "directory": "/home/jannbajade/dev/c/hootcurses/build",
+  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -I/home/jannbajade/dev/c/hootcurses/libs/linked_list/include -std=gnu11 -Wall -Wextra -Wpedantic -o CMakeFiles/hootcurses.dir/src/screen_surface.c.o -c /home/jannbajade/dev/c/hootcurses/src/screen_surface.c",
+  "file": "/home/jannbajade/dev/c/hootcurses/src/screen_surface.c",
+  "output": "CMakeFiles/hootcurses.dir/src/screen_surface.c.o"
 },
 {
   "directory": "/home/jannbajade/dev/c/hootcurses/build/libs/resizable_array",
   "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/resizable_array/include -std=gnu11 -o CMakeFiles/resizable_array.dir/src/resizable_array.c.o -c /home/jannbajade/dev/c/hootcurses/libs/resizable_array/src/resizable_array.c",
   "file": "/home/jannbajade/dev/c/hootcurses/libs/resizable_array/src/resizable_array.c",
   "output": "libs/resizable_array/CMakeFiles/resizable_array.dir/src/resizable_array.c.o"
+},
+{
+  "directory": "/home/jannbajade/dev/c/hootcurses/build/libs/linked_list",
+  "command": "/usr/bin/cc  -I/home/jannbajade/dev/c/hootcurses/libs/linked_list/include -std=gnu11 -o CMakeFiles/linked_list.dir/src/linked_list.c.o -c /home/jannbajade/dev/c/hootcurses/libs/linked_list/src/linked_list.c",
+  "file": "/home/jannbajade/dev/c/hootcurses/libs/linked_list/src/linked_list.c",
+  "output": "libs/linked_list/CMakeFiles/linked_list.dir/src/linked_list.c.o"
 }
 ]

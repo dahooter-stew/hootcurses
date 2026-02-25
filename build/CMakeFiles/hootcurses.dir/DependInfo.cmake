@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jannbajade/dev/c/hootcurses/src/hootcurses.c" "CMakeFiles/hootcurses.dir/src/hootcurses.c.o" "gcc" "CMakeFiles/hootcurses.dir/src/hootcurses.c.o.d"
   "/home/jannbajade/dev/c/hootcurses/src/main.c" "CMakeFiles/hootcurses.dir/src/main.c.o" "gcc" "CMakeFiles/hootcurses.dir/src/main.c.o.d"
+  "/home/jannbajade/dev/c/hootcurses/src/queue.c" "CMakeFiles/hootcurses.dir/src/queue.c.o" "gcc" "CMakeFiles/hootcurses.dir/src/queue.c.o.d"
+  "/home/jannbajade/dev/c/hootcurses/src/screen_surface.c" "CMakeFiles/hootcurses.dir/src/screen_surface.c.o" "gcc" "CMakeFiles/hootcurses.dir/src/screen_surface.c.o.d"
   "" "hootcurses" "gcc" "CMakeFiles/hootcurses.dir/link.d"
   )
 
